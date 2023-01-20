@@ -114,3 +114,16 @@ body {
         background-color: gray;
     }
 }
+
+/* Mobile */
+body.ismobile {
+    background-color: black;
+    height: 100%;
+    place-content:unset;
+}
+.calculator.ismobile {
+    height: auto;
+    border-radius: 0;
+    filter: none;
+    max-width: none;
+}

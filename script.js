@@ -33,6 +33,7 @@ function runCalculator() {
     }
 
     setButtonsListeners();
+    checkIsMobile();
 
     function setButtonsListeners() {
         [...buttonsEl].forEach(button => {
@@ -185,5 +186,12 @@ function runCalculator() {
             return true;
         }
         return false;
+    }
+
+    function checkIsMobile() {
+        if (navigator.userAgentData.mobile) {
+            document.body.classList.add('ismobile');
+            document.getElementsByClassName('calculator')[0].classList.add('ismobile');
+        }
     }
 }
