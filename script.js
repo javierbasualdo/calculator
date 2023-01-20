@@ -189,6 +189,7 @@ function runCalculator() {
     }
 
     function checkIsMobile() {
+        alert(navigator.userAgent)
         const toMatch = [
             /Android/i,
             /webOS/i,
