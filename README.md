@@ -10,6 +10,8 @@
 - Licence: Free (Please, tag me!)
 
 ### Demo: https://calculator-javierbasualdo.vercel.app/
+
+[Screenshot](./screenshot.png)
  
 ## How to use?
 
