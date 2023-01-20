@@ -11,7 +11,7 @@
 
 ### Demo: https://calculator-javierbasualdo.vercel.app/
 
-[Screenshot](./screenshot.png)
+![image](snap.png)
  
 ## How to use?
 
