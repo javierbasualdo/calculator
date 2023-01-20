@@ -189,7 +189,6 @@ function runCalculator() {
     }
 
     function checkIsMobile() {
-        alert(navigator.userAgent)
         const toMatch = [
             /Android/i,
             /webOS/i,
@@ -199,7 +198,7 @@ function runCalculator() {
             /BlackBerry/i,
             /Windows Phone/i
         ];
-        if (navigator.userAgentData.mobile || toMatch.some(nav => navigator.userAgent.match(nav) !== null)) {
+        if (navigator.userAgentData.mobile || toMatch.some(nav => navigator.userAgent.match(nav))) {
             document.body.classList.add('ismobile');
             document.getElementsByClassName('calculator')[0].classList.add('ismobile');
         }
