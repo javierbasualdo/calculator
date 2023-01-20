@@ -11,3 +11,11 @@
 
 ### Demo: https://calculator-javierbasualdo.vercel.app/
  
+## How to use?
+
+- Mouse click or keyboard
+
+Numbers and calculator charactes
+
+- AC = Delete / Backspace
+- decimal = ","
