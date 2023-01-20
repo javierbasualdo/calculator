@@ -189,7 +189,16 @@ function runCalculator() {
     }
 
     function checkIsMobile() {
-        if (navigator.userAgentData.mobile) {
+        const toMatch = [
+            /Android/i,
+            /webOS/i,
+            /iPhone/i,
+            /iPad/i,
+            /iPod/i,
+            /BlackBerry/i,
+            /Windows Phone/i
+        ];
+        if (navigator.userAgentData.mobile || navigator.userAgent.match(toMatch) !== null) {
             document.body.classList.add('ismobile');
             document.getElementsByClassName('calculator')[0].classList.add('ismobile');
         }
