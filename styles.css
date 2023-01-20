@@ -68,6 +68,17 @@ body {
 .buttons > div:not(:empty):hover {
     filter:grayscale(1) brightness(2);
 }
+div[data-info="0"] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: start;
+    padding-left: 0.9em
+}
 .gray {
     background-color: gray;
     color: black;
