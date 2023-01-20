@@ -198,7 +198,7 @@ function runCalculator() {
             /BlackBerry/i,
             /Windows Phone/i
         ];
-        if (navigator.userAgentData.mobile || toMatch.some(nav => navigator.userAgent.match(nav))) {
+        if (navigator.userAgentData?.mobile || toMatch.some(nav => navigator.userAgent.match(nav))) {
             document.body.classList.add('ismobile');
             document.getElementsByClassName('calculator')[0].classList.add('ismobile');
         }
